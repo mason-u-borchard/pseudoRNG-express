@@ -1,0 +1,26 @@
+{
+  "name": "pseudorng-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cranjis-mcbasketball/pseudoRNG-express.git"
+  },
+  "author": "Mason Borchard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cranjis-mcbasketball/pseudoRNG-express/issues"
+  },
+  "homepage": "https://github.com/cranjis-mcbasketball/pseudoRNG-express#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node": "^14.5.0",
+    "path": "^0.12.7"
+  }
+}
