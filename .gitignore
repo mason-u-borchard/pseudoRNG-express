@@ -8,5 +8,8 @@ logs
 node_modules/
 bower_components/
 
-# index.html
-public/index.html
+# front-end
+public/
+
+# not in use
+not-in-use/
