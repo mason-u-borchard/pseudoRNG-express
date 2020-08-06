@@ -8,7 +8,7 @@ app.use(express.static(path.resolve(__dirname, "../public")));
 
 
 app.get('/numbers', (req, res) => {
-  fs.readFile('data/numbers.txt', 'utf8', function(err, data) {
+  fs.readFile('data/bytes.txt', 'utf8', function(err, data) {
     if (err) {
       throw err;
     }  else {

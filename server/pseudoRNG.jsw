@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 
 
-  fs.exists(path.join('data', 'numbers.txt'), function (exists) {
+  fs.exists(path.join('data', 'bytes.txt'), function (exists) {
     if(!exists){
-        fs.createWriteStream(path.join('data', 'numbers.txt'), (err) => {
+        fs.createWriteStream(path.join('data', 'bytes.txt'), (err) => {
           if (err) {
             throw err;
           }
@@ -17,7 +17,7 @@ const path = require('path');
         }
         console.log(bitArr);
         // res.send(bitArr);
-        fs.appendFile('data/numbers.txt', bitArr + '\n', (err) => {
+        fs.appendFile('data/bytes.txt', bitArr + '\n', (err) => {
           if (err) {
             throw err
           }
