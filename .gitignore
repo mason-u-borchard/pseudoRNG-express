@@ -8,8 +8,9 @@ logs
 node_modules/
 bower_components/
 
-# front-end
-public/
+
+# .txt file
+*.txt
 
 # not in use
 not-in-use/

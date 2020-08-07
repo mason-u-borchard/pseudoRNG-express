@@ -1,0 +1,19 @@
+
+$(() => {
+var addNum = function (){
+  axios.get('/numbers')
+  .then((res) => {
+    console.log('data received to client', res.data);
+    for (var i = 0; i < res.data.length - 1; i++){
+      $('#numbers').append(`<li>${res.data[i].split(',').join(' ')}</li>`)
+    }
+
+  })
+  .catch((err) => {
+    throw err;
+  })
+}
+setInterval(function(){
+  addNum()
+}, 1000)
+})
