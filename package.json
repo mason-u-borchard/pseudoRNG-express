@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/index.jsw",
-    "pseudo-rng-generator": "node server/pseudoRNG.jsw"
+    "pseudo-rng": "node server/pseudoRNG.jsw"
   },
   "repository": {
     "type": "git",
