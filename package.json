@@ -20,7 +20,7 @@
   "homepage": "https://github.com/cranjis-mcbasketball/pseudoRNG-express#readme",
   "dependencies": {
     "FileSaver": "^0.10.0",
-    "axios": "^0.19.2",
+    "axios": "^1.4.0",
     "cors": "^2.8.5",
     "corvid": "0.0.3",
     "express": "^4.17.3",
